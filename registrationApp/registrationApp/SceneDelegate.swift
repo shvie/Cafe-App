@@ -14,24 +14,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let windiwScene = (scene as? UIWindowScene) else { return }
-        //window = UIWindow(windowScene: windiwScene)
-        //guard let window = window else {
-        //    return
         }
-        //Загрузка списка аккаунтов их надо загрузить до создания экземпляров класса FirstViewController
-        //let storage = Depository().load()
-        
-        //Загрузка первой сцены с входом
-        //let firstViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "FirstViewController") as! FirstViewController
-        //Передача списка аккаунтов
-        //firstViewController.loadData()
-        //создание навигационного контроллера
-        //let navigationController = UINavigationController(rootViewController: firstViewController)
-        //отображение сцен
-        //self.window?.windowScene = windiwScene
-        //window.rootViewController = navigationController
-        //window.makeKeyAndVisible()
-    //}
 
     func sceneDidDisconnect(_ scene: UIScene) {
         // Called as the scene is being released by the system.

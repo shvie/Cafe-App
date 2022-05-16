@@ -8,18 +8,15 @@
 import UIKit
 
 class LastScene: UIViewController{
-    
+    //хранилище заказов
     var storageForBooking: [BookingTable] = []
-
-
+    //MARK: - Элементы на сцене
     @IBOutlet weak var numberTable: UILabel!
     @IBOutlet weak var numberGuests: UILabel!
-    
+    //MARK: - Жизненный цикл
     override func viewDidLoad() {
         super.viewDidLoad()
         printData()
-
-        
     }
     //выводим данные полученные данные на экран
     func printData () {
